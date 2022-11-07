@@ -56,7 +56,7 @@
 .ratings .ratings__body p {
   margin-bottom: 0;
 }
-.ratings .ratings__form__input {
+.ratings .ratings__form__section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   -moz-column-gap: 20px;
@@ -65,7 +65,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.ratings .ratings__form__input .ratings__form__input-value {
+.ratings .ratings__form__section .ratings__form__input {
   color: hsl(217deg, 12%, 63%);
   border-radius: 35px;
   font-size: 20px;
@@ -73,7 +73,7 @@
   padding: 15px;
   background-color: hsl(213deg, 19%, 18%);
 }
-.ratings .ratings__form__input .ratings__form__input-selected {
+.ratings .ratings__form__section .ratings__form__input-selected {
   color: hsl(217deg, 12%, 63%);
   border-radius: 35px;
   font-size: 20px;
@@ -81,7 +81,7 @@
   padding: 15px;
   background-color: hsl(25deg, 97%, 53%);
 }
-.ratings .ratings__form__input .ratings__form__input:hover {
+.ratings .ratings__form__section .ratings__form__input:hover {
   color: hsl(0deg, 0%, 100%);
   cursor: pointer;
   background-color: hsl(217deg, 12%, 63%);
@@ -121,14 +121,14 @@
   .ratings .ratings__rating {
     padding: 25px;
   }
-  .ratings .ratings__form__input .ratings__form__input-selected {
+  .ratings .ratings__form__section .ratings__form__input-selected {
     font-size: 14px;
     padding: 15px;
     width: 100%;
     height: 100%;
     background-color: hsl(25deg, 97%, 53%);
   }
-  .ratings .ratings__form__input .ratings__form__input-value {
+  .ratings .ratings__form__section .ratings__form__input {
     font-size: 14px;
     padding: 15px;
     width: 100%;

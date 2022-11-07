@@ -20,7 +20,7 @@ export default function Ratings({ submitClick, ratings, ratingClick, rating }) {
         </div>
         <div className="ratings__form">
           {/* TODO change this to a form */}
-          <div className="ratings__form__input">
+          <div className="ratings__form__section">
             {ratings.map((value, index) => {
               const ratingValue = value;
               return (
@@ -29,7 +29,7 @@ export default function Ratings({ submitClick, ratings, ratingClick, rating }) {
                   className={
                     rating === ratingValue
                       ? "ratings__form__input-selected"
-                      : "ratings__form__input-value"
+                      : "ratings__form__input"
                   }
                   onClick={() => ratingClick(ratingValue)}
                   key={index}

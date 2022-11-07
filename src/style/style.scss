@@ -68,14 +68,14 @@ $mobile: 375px;
       margin-bottom: 0;
     }
   }
-  .ratings__form__input {
+  .ratings__form__section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
-    .ratings__form__input-value {
+    .ratings__form__input {
       color: $light-grey;
       border-radius: 35px;
       font-size: 20px;
@@ -136,7 +136,7 @@ $mobile: 375px;
     .ratings__rating {
       padding: 25px;
     }
-    .ratings__form__input {
+    .ratings__form__section {
       .ratings__form__input-selected {
         font-size: 14px;
         padding: 15px;
@@ -144,7 +144,7 @@ $mobile: 375px;
         height: 100%;
         background-color: $orange;
       }
-      .ratings__form__input-value {
+      .ratings__form__input {
         font-size: 14px;
         padding: 15px;
         width: 100%;
