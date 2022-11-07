@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/frontendmentor-challenges/interactive-rating-component-main/solution/static/css/main.40a020f8.css",
-    "main.js": "/frontendmentor-challenges/interactive-rating-component-main/solution/static/js/main.95df4576.js",
-    "static/media/illustration-thank-you.svg": "/frontendmentor-challenges/interactive-rating-component-main/solution/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
-    "index.html": "/frontendmentor-challenges/interactive-rating-component-main/solution/index.html",
-    "static/media/icon-star.svg": "/frontendmentor-challenges/interactive-rating-component-main/solution/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
-    "main.40a020f8.css.map": "/frontendmentor-challenges/interactive-rating-component-main/solution/static/css/main.40a020f8.css.map",
-    "main.95df4576.js.map": "/frontendmentor-challenges/interactive-rating-component-main/solution/static/js/main.95df4576.js.map"
+    "main.css": "/interactive-rating-component-main/static/css/main.40a020f8.css",
+    "main.js": "/interactive-rating-component-main/static/js/main.b6dee771.js",
+    "static/media/illustration-thank-you.svg": "/interactive-rating-component-main/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/interactive-rating-component-main/index.html",
+    "static/media/icon-star.svg": "/interactive-rating-component-main/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
+    "main.40a020f8.css.map": "/interactive-rating-component-main/static/css/main.40a020f8.css.map",
+    "main.b6dee771.js.map": "/interactive-rating-component-main/static/js/main.b6dee771.js.map"
   },
   "entrypoints": [
     "static/css/main.40a020f8.css",
-    "static/js/main.95df4576.js"
+    "static/js/main.b6dee771.js"
   ]
 }
