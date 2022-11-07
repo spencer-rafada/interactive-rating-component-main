@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+$orange: hsl(25, 97%, 53%);
+$white: hsl(0, 0%, 100%);
+$light-grey: hsl(217, 12%, 63%);
+$medium-grey: hsl(216, 12%, 54%);
+$dark-blue: hsl(213, 19%, 18%);
+$very-dark-blue: hsl(216, 12%, 8%);
+$mobile: 375px;
+
+.background { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 16, 16);
+  height: 1000px;
+  width: 1440px;
+}
+
+.ratings {
+  width: 420px;
+  background: radial-gradient(circle at top, $dark-blue, $very-dark-blue);
+  border-radius: 40px;
+  font-family: 'Overpass', sans-serif;
+  color: $light-grey;
+  font-size: 15px;
+  .ratings__rating {
+    padding: 40px;
+  }
+  .ratings__title {
+    margin-top: 40px;
+    color: $white;
+    h1 {
+      font-weight: 700;
+      margin-bottom: 0px;
+    }
+  }
+  .ratings__star {
+    background-color: $dark-blue;
+    display: block;
+    padding: 10px;
+    border-radius: 40px;
+    width: 20px;
+    height: 20px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .ratings__form__button {
+    color: $white;
+    background-color: $orange;
+    width: 100%;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 36px;
+    letter-spacing: 5px;
+    padding: 18px;
+  }
+  .ratings__form__button:hover {
+    background-color: $white;
+    color: $orange;
+    cursor: pointer;
+  }
+
+  .ratings__body {
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .ratings__form__input {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .ratings__form__input-value {
+      color: $light-grey;
+      border-radius: 35px;
+      font-size: 20px;
+      border: 0;
+      padding: 15px;
+      background-color: $dark-blue;
+    }
+
+    .ratings__form__input-value:hover {
+      color: $white;
+      cursor: pointer;
+      background-color: $light-grey;
+    }
+  }
+
+  // Thank you
+  .ratings__thankyou {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    .ratings__thankyou__img {
+      display: inline;
+    }
+    .ratings__score {
+      margin: 30px;
+      p {
+        display: inline;
+        background-color: $dark-blue;
+        color: $orange;
+        padding: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .background {
+    width: 100%;
+    padding: 20px;
+  }
+  .ratings {
+    width: 100%;
+    border-radius: 10px;
+    line-height: 1.8;
+    .ratings__rating {
+      padding: 25px;
+    }
+    .ratings__form__input {
+      .ratings__form__input-value {
+        font-size: 14px;
+        padding: 15px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

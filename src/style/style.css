@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 16, 16);
+  height: 1000px;
+  width: 1440px;
+}
+
+.ratings {
+  width: 420px;
+  background: radial-gradient(circle at top, hsl(213deg, 19%, 18%), hsl(216deg, 12%, 8%));
+  border-radius: 40px;
+  font-family: "Overpass", sans-serif;
+  color: hsl(217deg, 12%, 63%);
+  font-size: 15px;
+}
+.ratings .ratings__rating {
+  padding: 40px;
+}
+.ratings .ratings__title {
+  margin-top: 40px;
+  color: hsl(0deg, 0%, 100%);
+}
+.ratings .ratings__title h1 {
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.ratings .ratings__star {
+  background-color: hsl(213deg, 19%, 18%);
+  display: block;
+  padding: 10px;
+  border-radius: 40px;
+  width: 20px;
+  height: 20px;
+}
+.ratings .ratings__star img {
+  width: 100%;
+}
+.ratings .ratings__form__button {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(25deg, 97%, 53%);
+  width: 100%;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 36px;
+  letter-spacing: 5px;
+  padding: 18px;
+}
+.ratings .ratings__form__button:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  cursor: pointer;
+}
+.ratings .ratings__body p {
+  margin-bottom: 0;
+}
+.ratings .ratings__form__input {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ratings .ratings__form__input .ratings__form__input-value {
+  color: hsl(217deg, 12%, 63%);
+  border-radius: 35px;
+  font-size: 20px;
+  border: 0;
+  padding: 15px;
+  background-color: hsl(213deg, 19%, 18%);
+}
+.ratings .ratings__form__input .ratings__form__input-value:hover {
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+  background-color: hsl(217deg, 12%, 63%);
+}
+.ratings .ratings__thankyou {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.ratings .ratings__thankyou .ratings__thankyou__img {
+  display: inline;
+}
+.ratings .ratings__thankyou .ratings__score {
+  margin: 30px;
+}
+.ratings .ratings__thankyou .ratings__score p {
+  display: inline;
+  background-color: hsl(213deg, 19%, 18%);
+  color: hsl(25deg, 97%, 53%);
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+}
+
+@media (max-width: 375px) {
+  .background {
+    width: 100%;
+    padding: 20px;
+  }
+  .ratings {
+    width: 100%;
+    border-radius: 10px;
+    line-height: 1.8;
+  }
+  .ratings .ratings__rating {
+    padding: 25px;
+  }
+  .ratings .ratings__form__input .ratings__form__input-value {
+    font-size: 14px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
