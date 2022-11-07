@@ -22,11 +22,16 @@ export default function Ratings({ submitClick, ratings, ratingClick, rating }) {
           {/* TODO change this to a form */}
           <div className="ratings__form__input">
             {ratings.map((value, index) => {
+              const ratingValue = value;
               return (
                 <button
                   type="button"
-                  className="ratings__form__input-value"
-                  onClick={(value) => ratingClick(value)}
+                  className={
+                    rating === ratingValue
+                      ? "ratings__form__input-selected"
+                      : "ratings__form__input-value"
+                  }
+                  onClick={() => ratingClick(ratingValue)}
                   key={index}
                   value={value}
                 >

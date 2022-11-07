@@ -73,7 +73,15 @@
   padding: 15px;
   background-color: hsl(213deg, 19%, 18%);
 }
-.ratings .ratings__form__input .ratings__form__input-value:hover {
+.ratings .ratings__form__input .ratings__form__input-selected {
+  color: hsl(217deg, 12%, 63%);
+  border-radius: 35px;
+  font-size: 20px;
+  border: 0;
+  padding: 15px;
+  background-color: hsl(25deg, 97%, 53%);
+}
+.ratings .ratings__form__input .ratings__form__input:hover {
   color: hsl(0deg, 0%, 100%);
   cursor: pointer;
   background-color: hsl(217deg, 12%, 63%);
@@ -112,6 +120,13 @@
   }
   .ratings .ratings__rating {
     padding: 25px;
+  }
+  .ratings .ratings__form__input .ratings__form__input-selected {
+    font-size: 14px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(25deg, 97%, 53%);
   }
   .ratings .ratings__form__input .ratings__form__input-value {
     font-size: 14px;

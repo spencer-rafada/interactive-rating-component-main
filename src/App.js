@@ -18,8 +18,8 @@ function App() {
   };
 
   const ratingButtonPressed = (e) => {
-    setRating(e.target.value);
-    console.log(e.target.value);
+    setRating(e);
+    console.log(e);
   };
   return (
     <div className="background">
