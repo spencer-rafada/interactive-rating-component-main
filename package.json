@@ -1,7 +1,7 @@
 {
   "name": "interactive-rating-component-main",
   "version": "0.1.0",
-  "homepage": "https://spencer-rafada.github.io/frontendmentor-challenges/interactive-rating-component-main/solution",
+  "homepage": "https://spencer-rafada.github.io/interactive-rating-component-main",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
